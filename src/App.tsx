@@ -88,7 +88,7 @@ export default function Portfolio() {
 
       <section className="p-6">
         <h2 className="text-2xl font-semibold mb-4 text-center text-gray-700">Contact Me</h2>
-        <form className="space-y-6 max-w-lg mx-auto" action="https://formspree.io/f/your-form-id" method="POST">
+        <form className="space-y-6 max-w-lg mx-auto" action="https://formspree.io/f/xdkdkrjv" method="POST">
           <input type="text" name="name" placeholder="Your Name" className="w-full border p-3 rounded shadow" required />
           <input type="email" name="email" placeholder="Your Email" className="w-full border p-3 rounded shadow" required />
           <textarea name="message" placeholder="Your Message" className="w-full border p-3 rounded shadow" rows="4" required></textarea>
