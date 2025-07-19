@@ -7,11 +7,8 @@ export default function Portfolio() {
   return (
     <div className="p-6 space-y-16 bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-100 min-h-screen">
       <section className="text-center space-y-4">
-        <img
-          src="/your-photo.jpg"
-          alt="Yugandhar Budha"
-          className="w-40 h-40 rounded-full mx-auto shadow-lg"
-        />
+        <img src="/your-photo.jpg" alt="Yugandhar Budha" ... />
+
         <h1 className="text-4xl font-bold text-gray-800">Yugandhar Budha</h1>
         <p className="text-lg text-gray-600">Educator | Motivational Speaker | Lifelong Learner</p>
       </section>
@@ -63,13 +60,10 @@ export default function Portfolio() {
       </section>
 
       <section className="text-center space-y-6">
-      <a
-  href="/resume-yugandhar.pdf"
-  download
-  className="inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition"
->
-  Download Resume
+      <a href="/resume-yugandhar.pdf" download>
+    Download Resume
 </a>
+
 
 
 
