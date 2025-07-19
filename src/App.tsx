@@ -7,7 +7,10 @@ export default function Portfolio() {
   return (
     <div className="p-6 space-y-16 bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-100 min-h-screen">
       <section className="text-center space-y-4">
-        <img src="/your-photo.jpg" alt="Yugandhar Budha" ... />
+       <a href="https://drive.google.com/file/d/1suhy5X16qcLtX4dGlUcUzbdR-VNXNnQr/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    <img src="/your-photo.jpg" alt="Yugandhar Budha" />
+</a>
+
 
         <h1 className="text-4xl font-bold text-gray-800">Yugandhar Budha</h1>
         <p className="text-lg text-gray-600">Educator | Motivational Speaker | Lifelong Learner</p>
@@ -60,9 +63,10 @@ export default function Portfolio() {
       </section>
 
       <section className="text-center space-y-6">
-      <a href="/resume-yugandhar.pdf" download>
-    Download Resume
+      <a href="https://drive.google.com/file/d/1mEzQ40glXu_T0sqpoy11sazihn57TWoC/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    View / Download Resume (PDF)
 </a>
+
 
 
 
