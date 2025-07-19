@@ -7,8 +7,9 @@ export default function Portfolio() {
   return (
     <div className="p-6 space-y-16 bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-100 min-h-screen">
       <section className="text-center space-y-4">
+      
        <a href="https://drive.google.com/file/d/1suhy5X16qcLtX4dGlUcUzbdR-VNXNnQr/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-    <img src="/your-photo.jpg" alt="Yugandhar Budha" />
+    <img src="/your-photo.jpg" alt="Yugandhar Budha"  class="w-40 h-40 rounded-full mx-auto shadow-lg" />
 </a>
 
 
@@ -63,9 +64,15 @@ export default function Portfolio() {
       </section>
 
       <section className="text-center space-y-6">
-      <a href="https://drive.google.com/file/d/1mEzQ40glXu_T0sqpoy11sazihn57TWoC/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-    View / Download Resume (PDF)
+      <a
+    href="https://drive.google.com/file/d/1mEzQ40glXu_T0sqpoy11sazihn57TWoC/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition"
+>
+    View / Download Resume
 </a>
+
 
 
 
