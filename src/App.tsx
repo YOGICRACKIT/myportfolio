@@ -22,7 +22,7 @@ export default function Portfolio() {
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold mb-4 text-gray-700">About Me</h2>
             <p className="leading-relaxed text-gray-600">
-              My name is Yugandhar, a dedicated educator and motivational speaker passionate about bridging the gap between education and practical application. With experience teaching, mentoring, and inspiring students, I focus on empowering others through technology and education.
+              I am Yugandhar, a dedicated educator and motivational speaker passionate about bridging the gap between education and practical application. With experience teaching, mentoring, and inspiring students, I focus on empowering others through technology and education.
             </p>
           </CardContent>
         </Card>
